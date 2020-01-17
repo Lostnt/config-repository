@@ -17,3 +17,7 @@ management:
     web:
       exposure:
         include: "*"
+# 开启熔断
+feign:
+  hystrix:
+    enabled: true
